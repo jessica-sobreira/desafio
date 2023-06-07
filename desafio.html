@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <script>
+      let saque = Number.parseInt(prompt('digite o valor do saque'));
+      let qtd50 = 0;
+      let qtd10 = 0;
+      let qtd5 = 0;
+      let qtd1 = 0;
+
+      if (saque >= 50) {
+        while (saque >= 50) {
+          qtd50++;
+          saque = saque - 50;
+        }
+      }
+      console.log(qtd50);
+      if (saque >= 10) {
+        while (saque >= 10) {
+          qtd10++;
+          saque = saque - 10;
+        }
+      }
+      console.log(qtd10);
+      if (saque >= 5) {
+        while (saque >= 5) {
+          qtd5++;
+          saque = saque - 5;
+        }
+      }
+      console.log(qtd5);
+      if (saque >= 1) {
+        while (saque >= 1) {
+          qtd1++;
+          saque = saque - 1;
+        }
+      }
+      console.log(qtd1);
+
+    </script>
+  </body>
+</html>
